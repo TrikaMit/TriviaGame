@@ -12,6 +12,11 @@ h1{
 
 #question{
     font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.answer{
+    font-size: 20px;
 }
 
 .grey-background{
