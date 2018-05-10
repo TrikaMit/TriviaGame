@@ -66,7 +66,7 @@ $(document).ready(function(){
     }
 
     function incorrectAnswer(){
-        alert ("Incorrect choice!");
+        alert ("Incorrect choice! The correct answer was " + questionsArray[i].choices[questionsArray[i].answer] + ".");
         i++;
         wrongAnswers++;
         clearTimer();
@@ -74,7 +74,7 @@ $(document).ready(function(){
     }
 
     function timeUp(){
-        alert ("Time's up!");
+        alert ("Time's up! The correct answer was " + questionsArray[i].choices[questionsArray[i].answer] + ".");
         i++;
         wrongAnswers++;
         clearTimer();
