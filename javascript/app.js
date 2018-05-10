@@ -131,17 +131,8 @@ $(document).ready(function(){
         clearInterval(makeTimer);
     }
 }
-
     //play again
     $("#replay").click(function(){
         restart();
     });
-    
-    
-    
-    
-    
-    
-
-
 });
