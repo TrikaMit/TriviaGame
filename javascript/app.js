@@ -26,7 +26,7 @@ $(document).ready(function(){
         answer: 2},
         {question: "What is the name of the city where The Office takes place?",
         choices: ['Scranton','Springfield','Smallville','Skrillex'],
-        answer: 2}
+        answer: 0}
     ];
     restart();
 
